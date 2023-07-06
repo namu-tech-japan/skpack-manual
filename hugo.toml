@@ -1,0 +1,4 @@
+baseURL = '/'
+languageCode = 'ko'
+title = 'SK PACK Manual'
+theme = 'learn'
