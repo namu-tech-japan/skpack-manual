@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Documentatio
 linkTitle: Docs
 menu: {main: {weight: 20}}
 weight: 20
