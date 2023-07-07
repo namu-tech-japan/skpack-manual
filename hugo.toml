@@ -1,4 +1,4 @@
-baseURL = '/skpack-manual'
+baseURL = 'skpack-manual/'
 title = 'SK PACK Manual'
 
 [markup]
