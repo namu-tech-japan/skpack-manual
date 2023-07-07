@@ -1,5 +1,4 @@
-baseURL = 'skpack-manual/'
-canonifyURLs = true
+baseURL = '/'
 title = 'SK PACK Manual'
 
 [markup]

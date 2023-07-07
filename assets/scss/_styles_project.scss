@@ -1,0 +1,27 @@
+.table {
+  max-width: 95%;
+
+  img {
+    max-width: calc(100% - 8px);
+  }
+
+  th {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  th:nth-child(1) {
+    width: 60%;
+  }
+
+  td {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  tr:nth-child(odd) {
+    td:nth-child(2) {
+      text-align: start !important;
+    }
+  }
+}
