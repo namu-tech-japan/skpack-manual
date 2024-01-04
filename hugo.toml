@@ -1,4 +1,5 @@
-baseURL = '/'
+baseURL = '/manual'
+canonifyURLs = true
 title = 'SK PACK Manual'
 
 [markup]
@@ -19,9 +20,13 @@ weight = 100
 url = "https://skpack.co.kr/admin"
 post = " <i class='fa fa-2xs fa-arrow-up-right-from-square'></i>"
 
-[params]
-copyright = "The Docsy Authors"
+#[params]
+#copyright = "The Docsy Authors"
 #privacy_policy = "https://policies.google.com/privacy"
+
+[params.ui]
+breadcrumb_disable = true
+taxonomy_breadcrumb_disable = true
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
